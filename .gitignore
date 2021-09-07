@@ -1,0 +1,9 @@
+.vscode/
+node_modules/
+coverage/
+docs/
+browser/
+esm/
+styles/
+.nyc_output/
+npm-debug.log
