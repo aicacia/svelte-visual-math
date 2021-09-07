@@ -28,9 +28,6 @@ export default defineConfig({
     exclude: Object.keys(imports),
     include: [],
   },
-  build: {
-    minify: false,
-  },
   plugins: [
     {
       ...esmImportToUrl({
